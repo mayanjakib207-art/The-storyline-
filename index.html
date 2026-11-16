@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="The Storyline — original books and dramas by Mayanja Shakib. Every story leaves a mark.">
+<title>The Storyline | Mayanja Shakib</title>
+<style>
+:root{--ink:#17131a;--panel:#211b24;--gold:#d8b77c;--cream:#f3eadb;--muted:#c6b9aa;--line:#554536;--red:#762e36}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#110f13;color:var(--cream);font-family:Georgia,"Times New Roman",serif;line-height:1.65}
+a{color:inherit}.wrap{width:min(1100px,92%);margin:auto}
+header{position:sticky;top:0;z-index:5;background:rgba(17,15,19,.94);backdrop-filter:blur(12px);border-bottom:1px solid #3b3029}
+.nav{min-height:68px;display:flex;align-items:center;justify-content:space-between;gap:18px}.brand{font-size:1.12rem;letter-spacing:.19em;color:var(--gold);font-weight:bold;text-decoration:none}.navlinks{display:flex;gap:22px;flex-wrap:wrap}.navlinks a{text-decoration:none;color:var(--muted);font: .9rem Arial,sans-serif}.navlinks a:hover{color:var(--gold)}
+.hero{min-height:590px;display:grid;place-items:center;text-align:center;position:relative;overflow:hidden;background:radial-gradient(ellipse at 50% 38%,#56343a 0,#261c25 36%,#110f13 75%)}
+.hero:before,.hero:after{content:"";position:absolute;border:1px solid rgba(216,183,124,.18);border-radius:50%;width:520px;height:520px;transform:rotate(-25deg)}.hero:after{width:650px;height:650px}
+.hero-inner{position:relative;z-index:1;padding:75px 0}.eyebrow{font: .75rem Arial,sans-serif;letter-spacing:.28em;text-transform:uppercase;color:var(--gold)}
+h1{font-size:clamp(2.8rem,8vw,5.7rem);line-height:1.02;letter-spacing:.07em;margin:18px 0;color:#f2dfbd;font-weight:normal}.tagline{font-style:italic;color:#e1cda9;font-size:1.25rem;margin:16px 0 28px}.intro{max-width:650px;margin:0 auto 30px;color:var(--muted);font-size:1.05rem}
+.btn{display:inline-block;padding:12px 23px;border:1px solid var(--gold);color:var(--gold);text-decoration:none;letter-spacing:.08em;text-transform:uppercase;font: .76rem Arial,sans-serif}.btn:hover{background:var(--gold);color:#17131a}
+section{padding:78px 0}.section-label{color:var(--gold);font: .72rem Arial,sans-serif;letter-spacing:.23em;text-transform:uppercase}h2{font-size:clamp(2rem,4vw,3rem);font-weight:normal;margin:8px 0 18px}.lead{color:var(--muted);max-width:720px}
+.feature{display:grid;grid-template-columns:minmax(220px,.8fr) 1.2fr;gap:42px;align-items:center;margin-top:34px}.cover{min-height:390px;padding:26px;display:flex;flex-direction:column;justify-content:space-between;text-align:center;border:1px solid #a47d50;background:linear-gradient(150deg,#3b2028,#17131a 62%,#5b3032);box-shadow:0 18px 55px #0008;position:relative}.cover:before{content:"";position:absolute;inset:12px;border:1px solid #c6a36d66}.cover small,.cover strong,.cover span{position:relative}.cover small{letter-spacing:.22em;color:#e1c58e;font: .68rem Arial,sans-serif}.cover strong{font-size:clamp(1.8rem,4vw,2.6rem);line-height:1.1;color:#f2dfbd;font-weight:normal}.cover span{font-size:.85rem;letter-spacing:.12em;color:#e1c58e}
+.details h3{font-size:2rem;font-weight:normal;margin:0 0 8px}.subtitle{font-style:italic;color:var(--gold)}.details p{color:var(--muted)}.meta{font: .8rem Arial,sans-serif;color:#bca98f;letter-spacing:.08em;margin:18px 0}
+.library{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:18px;margin-top:28px}.card{background:var(--panel);border:1px solid #44362f;padding:24px}.card h3{font-size:1.35rem;font-weight:normal;margin:8px 0}.card p{color:var(--muted);font-size:.95rem}.status{font: .68rem Arial,sans-serif;letter-spacing:.13em;text-transform:uppercase;color:var(--gold)}
+.reading{background:#1a151b;border-top:1px solid #3e302b;border-bottom:1px solid #3e302b}.acts{display:grid;grid-template-columns:repeat(auto-fit,minmax(145px,1fr));gap:10px;margin:28px 0}.act{padding:15px 12px;border:1px solid #554536;background:#211b24;color:var(--cream);text-align:center;font: .85rem Arial,sans-serif}.act span{display:block;color:var(--gold);font: .68rem Arial,sans-serif;letter-spacing:.1em;margin-bottom:5px}.note{border-left:2px solid var(--gold);padding:14px 18px;background:#211b24;color:var(--muted);max-width:760px}
+.aboutgrid{display:grid;grid-template-columns:1fr 1fr;gap:35px}.aboutbox{border-top:1px solid var(--line);padding-top:18px;color:var(--muted)}
+footer{padding:35px 0;border-top:1px solid #3b3029;color:#9e9083;font: .8rem Arial,sans-serif;text-align:center}
+@media(max-width:680px){.nav{align-items:flex-start;padding:17px 0;flex-direction:column}.navlinks{gap:14px}.hero{min-height:510px}.feature,.aboutgrid{grid-template-columns:1fr}.cover{min-height:340px;max-width:360px;width:100%;margin:auto}section{padding:58px 0}}
+</style>
+</head>
+<body>
+<header><div class="wrap nav">
+<a class="brand" href="#home">THE STORYLINE</a>
+<nav class="navlinks" aria-label="Main navigation">
+<a href="#books">Books</a><a href="#dramas">Dramas</a><a href="#about">About</a><a href="#poetry">Poetry</a>
+</nav></div></header>
+<main>
+<section class="hero" id="home"><div class="wrap hero-inner">
+<div class="eyebrow">A literary home of Mayanja Shakib</div>
+<h1>THE<br>STORYLINE</h1>
+<p class="tagline">Every story leaves a mark.</p>
+<p class="intro">A home for original books, dramas and stories by Mayanja Shakib — worlds imagined, lives tested, and words made to endure.</p>
+<a class="btn" href="#books">Explore the library</a>
+</div></section>
+
+<section id="books"><div class="wrap">
+<div class="section-label">The library</div><h2>Stories in the making.</h2>
+<p class="lead">Discover original literary works by Mayanja Shakib. This library will grow as new books and stories are prepared for readers.</p>
+<div class="library">
+<article class="card"><div class="status">Featured drama</div><h3>A Kingdom Written in Blood</h3><p>A royal tragedy of love, betrayal and destiny.</p><a class="btn" href="#dramas">Discover the drama</a></article>
+<article class="card"><div class="status">Poetry collection</div><h3>The Language of a Restless Heart</h3><p>A collection of poems by Mayanja Shakib.</p><a class="btn" href="https://brilliant-sunshine-fc7916.netlify.app/" target="_blank" rel="noopener">Visit poetry website</a></article>
+<article class="card"><div class="status">Future publications</div><h3>More stories to come</h3><p>New books, dramas and short stories will find their place here.</p></article>
+</div></div></section>
+
+<section class="reading" id="dramas"><div class="wrap">
+<div class="section-label">Featured drama</div><h2>A Kingdom Written in Blood</h2>
+<div class="feature">
+<div class="cover"><small>MAYANJA SHAKIB PRESENTS</small><strong>A KINGDOM<br>WRITTEN<br>IN BLOOD</strong><span>A ROYAL TRAGEDY</span></div>
+<div class="details"><h3>A Kingdom Written in Blood</h3><div class="subtitle">A Royal Tragedy of Love, Betrayal and Destiny</div>
+<div class="meta">WRITTEN BY MAYANJA SHAKIB · 12 ACTS</div>
+<p>Within the ancient kingdom of Inkarnia, the struggle for power draws love, loyalty and ambition into a dangerous contest. A royal drama of political intrigue, supernatural forces, war and the choices that shape a kingdom.</p>
+<p><strong>Reading edition in preparation.</strong> The acts and scenes will be added from the author's approved manuscript. No scenes have been invented or substituted on this page.</p>
+<a class="btn" href="#contents">View table of contents</a>
+</div></div>
+<div id="contents" style="margin-top:55px"><div class="section-label">Reading guide</div><h2>Table of contents</h2>
+<p class="lead">The twelve-act structure is listed below. Individual scene texts will be published here once the final manuscript is supplied and checked.</p>
+<div class="acts">
+<div class="act"><span>ACT I</span>The Feast</div><div class="act"><span>ACT II</span>The Seeds of Ambition</div>
+<div class="act"><span>ACT III</span>The Crown's Shadow</div><div class="act"><span>ACT IV</span>The Kingdom in Chains</div>
+<div class="act"><span>ACT V</span>The Gathering Storm</div><div class="act"><span>ACT VI</span>The Web of Deception</div>
+<div class="act"><span>ACT VII</span>The Kingdom Divided</div><div class="act"><span>ACT VIII</span>The Blood of Betrayal</div>
+<div class="act"><span>ACT IX</span>The Fall of the Crown</div><div class="act"><span>ACT X</span>The Treacherous Hour</div>
+<div class="act"><span>ACT XI</span>The Kingdom in Ruins</div><div class="act"><span>ACT XII</span>The Last Days of Inkarnia</div>
+</div>
+<div class="note">The act titles above provide the reading structure. The full scene-by-scene text still needs to be inserted from the author's approved manuscript before readers can read the complete drama.</div>
+</div></div></section>
+
+<section id="about"><div class="wrap"><div class="section-label">The author</div><h2>Mayanja Shakib</h2>
+<div class="aboutgrid"><div><p class="lead">The Storyline is the independent literary home of Mayanja Shakib's original creative works.</p></div><div class="aboutbox">This space is dedicated to stories, imagination and the written word. More about the author and the works will be added as the library develops.</div></div>
+</div></section>
+<section id="poetry"><div class="wrap"><div class="section-label">Also by the author</div><h2>Poetry</h2><p class="lead">Explore <em>The Language of a Restless Heart</em>, the author's poetry collection, on its dedicated website.</p><a class="btn" href="https://brilliant-sunshine-fc7916.netlify.app/" target="_blank" rel="noopener">Read the poetry collection</a></div></section>
+</main>
+<footer><div class="wrap">THE STORYLINE · Every story leaves a mark.<br>Original works by Mayanja Shakib.</div></footer>
+</body></html>
